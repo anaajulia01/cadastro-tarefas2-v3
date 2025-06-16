@@ -23,11 +23,11 @@ const app = express()
 
 //middleware//
 
-app.use(cors)
+app.use(cors())
 app.use(express.json())
 
 //rotas
-app,use("/tarefas", tarefaRoutes)
+app.use("/", tarefaRoutes)
 
 //sincronização com o banco - start do server
 sequelize.sync()
