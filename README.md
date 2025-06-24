@@ -12,6 +12,8 @@ Aplicação web simples para gerenciamento de tarefas, com backend em Node.js, p
 •	Banco de Dados: MySQL
 •	Frontend: HTML, CSS
 📷 Captura de Tela
+![Capturar](https://github.com/user-attachments/assets/1da5e9c4-e7cd-4fd6-ba96-25de5195060e)
+
 
 ⚙️ Como Executar o Projeto
 1.	Clone o repositório:
