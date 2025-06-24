@@ -8,7 +8,7 @@ Aplicação web para gerenciamento de tarefas, desenvolvida com **Node.js** no b
 
 - ✅ Cadastro de novas tarefas  
 - ✅ Visualização da lista de tarefas  
-- ✅ Atualização de status (pendente/concluída)  
+- ✅ Atualização de status ![Pendente](https://img.shields.io/badge/Pendente-%20Concluído-blue)  
 - ✅ Integração com banco de dados relacional (MySQL)  
 - ✅ Interface web responsiva e de fácil navegação  
 
@@ -73,4 +73,4 @@ Durante o desenvolvimento deste projeto, foram consolidados os seguintes conheci
 
 ## 📄 Licença
 Este projeto está licenciado sob os termos da MIT License.
-Consulte o arquivo LICENSE para mais informações. tem como estilizar mais?
+
