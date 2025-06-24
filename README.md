@@ -1,65 +1,84 @@
 # 📋 Projeto: Cadastro de Tarefas da Ana Júlia
 
-Aplicação web simples para gerenciamento de tarefas, com backend em **Node.js**, persistência de dados em **MySQL**, e uma interface responsiva em **HTML/CSS**.
+Aplicação web para gerenciamento de tarefas, desenvolvida com **Node.js** no backend e **MySQL** para persistência de dados. A interface foi construída com **HTML/CSS**, oferecendo uma experiência simples e funcional para o usuário final.
 
 ---
 
 ## 🚀 Funcionalidades
 
 - ✅ Cadastro de novas tarefas  
-- ✅ Listagem de tarefas cadastradas  
-- ✅ Atualização do status (concluída/pendente)  
-- ✅ Integração com banco de dados **MySQL**  
-- ✅ Interface web simples e responsiva
+- ✅ Visualização da lista de tarefas  
+- ✅ Atualização de status (pendente/concluída)  
+- ✅ Integração com banco de dados relacional (MySQL)  
+- ✅ Interface web responsiva e de fácil navegação  
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Backend:** Node.js, Express  
-- **ORM:** Sequelize  
-- **Banco de Dados:** MySQL  
-- **Frontend:** HTML, CSS
+| Camada         | Tecnologias                |
+|----------------|----------------------------|
+| Backend        | Node.js, Express.js        |
+| ORM            | Sequelize                  |
+| Banco de Dados | MySQL                      |
+| Frontend       | HTML5, CSS3                |
+| Gerenciamento  | NPM                        |
 
 ---
 
 ## 📷 Captura de Tela
 
-> ![Capturar](https://github.com/user-attachments/assets/27f86fff-1649-4648-becb-02712f596c86)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/27f86fff-1649-4648-becb-02712f596c86" alt="Interface da aplicação" width="600"/>
+</p>
 
 ---
 
-⚙️ Como Executar o Projeto
-1. Clone o repositório
+## ⚙️ Como Executar o Projeto
+
+### 1. Clone o repositório
+
+```bash
 git clone https://github.com/seuusuario/seurepositorio.git
 cd seurepositorio
 
 2. Instale as dependências
+bash
+Copiar
+Editar
 npm install
+3. Configure o banco de dados
+Crie um banco no MySQL e configure suas credenciais no arquivo .env ou config/config.js:
 
-3. Configure o banco de dados MySQL
-Edite as credenciais no arquivo de configuração do Sequelize (por exemplo, config/config.js ou .env):
+env
+DB_HOST=localhost
+DB_USER=seu_usuario
+DB_PASSWORD=sua_senha
+DB_NAME=nome_do_banco
+💡 Dica: certifique-se de que o MySQL esteja em execução.
 
-- DB_HOST=localhost
-- DB_USER=seu_usuario
-- DB_PASSWORD=sua_senha
-- DB_NAME=nome_do_banco
-
-4. Execute o servidor
+4. Inicie o servidor
+bash
+Copiar
+Editar
 node backend/server.js
-
 5. Acesse a aplicação
-Abra o navegador e vá até: http://localhost:3000
+Abra o navegador e acesse:
+http://localhost:3000
 
-## 📚 Aprendizados
-Durante o desenvolvimento, foram aplicados conceitos como:
+📚 Aprendizados
+Durante o desenvolvimento deste projeto, foram consolidados os seguintes conhecimentos:
 
-- Uso do ORM Sequelize para abstração do banco de dados
-- Migração de base de dados de SQLite para MySQL
-- Criação de uma API RESTful básica
-- Integração entre frontend estático e backend com Node.js
+Utilização do ORM Sequelize para manipulação de dados com MySQL
 
-## 📄 Licença
-Este projeto está licenciado sob os termos da MIT License. Consulte o arquivo LICENSE para mais detalhes.
+Migração de banco de dados de SQLite para MySQL
 
+Criação e estruturação de uma API RESTful com Express
 
+Integração entre frontend estático e backend
+
+Boas práticas de organização e modularização de código
+
+📄 Licença
+Este projeto está licenciado sob os termos da MIT License.
+Consulte o arquivo LICENSE para mais informações.
